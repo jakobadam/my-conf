@@ -1,0 +1,18 @@
+// US international
+// danish æøå on Alt Gr + sdf
+// endash and emdash on Alt Gr + -
+
+partial alphanumeric_keys
+xkb_symbols "us-dk" {
+
+   include "us(altgr-intl)"
+
+    name[Group1]="English (Danish)";
+
+    key <AE11> { [     minus, underscore,        endash,           emdash ] };
+
+    key <AC02> { [	   s,          S,             ae,               AE ] };
+    key <AC03> { [	   d,          D,         oslash,            Oslash] };
+    key <AC04> { [	   f,          F,          aring,            Aring ] };
+
+};
