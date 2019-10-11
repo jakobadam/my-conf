@@ -1,0 +1,7 @@
+Host outdoorpilots.dk
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/smtp/id_rsa
+
+Host smtp.outdoorpilots.dk
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/smtp/id_rsa
